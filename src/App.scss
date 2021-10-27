@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  display: flex;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.card {
+  display: inline-block;
+  width: 250px;
+  min-height: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.card_header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  h3 {
+    margin: 0.2rem;
+  }
+}
+.removeIcon {
+  margin-left: 30%;
+}
+.removeIcon:hover {
+  span {
+    opacity: 1;
+  }
+}
+.deletePop {
+  position: absolute;
+  border: 1px solid grey;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-left: -45px;
+  margin-top: 25px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.removeBtn {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+}
+.removeBtn:hover {
+  cursor: pointer;
+}
+.likeIcon {
+  position: absolute;
+  margin-left: 225px;
+  img:hover {
+    cursor: pointer;
+  }
+}
+.likeIcon:hover {
+  span {
+    opacity: 1;
+  }
+}
+.costInfo {
+  margin: 0;
+}
+.likesPop {
+  position: absolute;
+  border: 1px solid grey;
+  font-size: 12px;
+  width: 70px;
+  border-radius: 5px;
+  margin-left: -45px;
+  margin-top: 25px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.coinInfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  img {
+    margin: 0 20px;
+  }
+}
+.showTogglerBtn {
+  background: none;
+  border: 1px solid lightseagreen;
+  margin: 10px auto;
+  padding: 5px 10px;
+  width: 150px;
+}
